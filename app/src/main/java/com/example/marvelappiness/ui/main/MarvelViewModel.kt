@@ -7,7 +7,6 @@ import com.example.marvelappiness.data.model.MarvelResponse
 import com.example.marvelappiness.ui.base.BaseViewModel
 import com.example.marvelappiness.utils.rx.SchedulerProvider
 
-
 class MarvelViewModel(dataManager: DataManager, schedulerProvider: SchedulerProvider) :
     BaseViewModel<MarvelNavigator>(dataManager, schedulerProvider) {
 
